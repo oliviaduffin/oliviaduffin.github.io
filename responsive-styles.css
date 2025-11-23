@@ -1,0 +1,41 @@
+@media screen and (max-width: 750px) {
+
+  /* Center EVERYTHING */
+  body, .container, .main, .left, .right, .footer, .header {
+    text-align: center;
+  }
+
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: 40px;
+  }
+
+  .right img {
+    width: 90%;
+    max-width: 350px;
+	}
+
+	.right{
+	margin-bottom: 20px;
+	}
+
+  .coming{
+  	margin-left: 0px;
+  }
+
+  .sub{
+  	margin-left: 0px;
+  }
+
+  .img-footer{
+  	margin: 10px;
+
+   }
+}
