@@ -30,7 +30,13 @@
     </main>
 
     <footer class="footer">
-      <a class="ig" href="https://www.instagram.com/mattduffinfineart/" target="_blank"><i class="fa-brands fa-instagram fa-1,5"></i></a>
+     <a class="ig" href="#" onclick="
+  window.location='instagram://user?username=mattduffinfineart';
+  setTimeout(function(){ window.location='https://www.instagram.com/mattduffinfineart/'; }, 500);
+  return false;
+">
+  <i class="fa-brands fa-instagram fa-1,5"></i>
+</a>
       <a class="contact" 
         <p id="contact"></p>
 <script>
