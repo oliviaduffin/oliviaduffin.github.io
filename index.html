@@ -31,7 +31,19 @@
 
     <footer class="footer">
       <a class="ig" href="https://www.instagram.com/mattduffinfineart/" target="_blank"><i class="fa-brands fa-instagram fa-1,5"></i></a>
-      <a class="contact" href="mailto:blackwaxart@gmail.com">Contact</a>
+      <a class="contact" 
+        <p id="contact"></p>
+<script>
+  const p1 = "blackwaxart";
+  const p2 = "gmail";
+  const p3 = "com";
+
+  const fullEmail = p1 + "@" + p2 + "." + p3;
+
+  document.getElementById("contact").innerHTML =
+    '<a href="mailto:' + fullEmail + '">CONTACT</a>';
+</script>
+
     </footer>
 
   </div>
